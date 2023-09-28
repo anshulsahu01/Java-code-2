@@ -5,7 +5,14 @@
 //***
 //**
 //*
-
+/*
+Print
+*
+**
+***
+****
+*****
+ */
 
 import java.util.Scanner;
 
