@@ -14,6 +14,7 @@ Print
 *****
  */
 
+
 import java.util.Scanner;
 
 public class five {
