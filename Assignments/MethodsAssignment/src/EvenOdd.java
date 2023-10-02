@@ -10,6 +10,7 @@ public class EvenOdd {
         System.out.println("enter a number");
         int a = obj.nextInt();
 
+
         if(a%2==0){
             System.out.println(a+ " is even");
         }else{
