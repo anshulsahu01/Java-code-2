@@ -8,7 +8,12 @@ public class twoDarrays {
     public static void main(String args[]){
         Scanner obj = new Scanner(System.in);
 
-        int arr[][]  = new int[3][3];
+        System.out.println("enter the number of class are there");
+        int c = obj.nextInt();
+        System.out.println("enter the number of student are there");
+        int s = obj.nextInt();
+
+        int arr[][]  = new int[c][s];
         System.out.println(arr.length);
 
         for(int i=0;i<=arr.length-1;i++){
