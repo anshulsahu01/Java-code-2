@@ -8,8 +8,6 @@ public class takingInput {
         int n = obj.nextInt();
         int a[] =new int[n];
 
-
-
         for(int i=0; i<=n-1;i++){
             a[i]= obj.nextInt();
 
