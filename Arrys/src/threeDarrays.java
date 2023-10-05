@@ -17,7 +17,7 @@ public class threeDarrays {
 
             for(int j=0;j<=arr[i].length-1;j++){
 
-                for(int k=0;k<=arr[j].length-1;k++){
+                for(int k=0;k<=arr[i][j].length-1;k++){
                     System.out.println("enter the marks of schools "+i+" class "+j+" student "+k);
 
                    arr[i][j][k] =  obj.nextInt();
@@ -30,7 +30,7 @@ public class threeDarrays {
 
             for(int j=0;j<=arr[i].length-1;j++){
 
-                for(int k=0;k<=arr[j].length-1;k++){
+                for(int k=0;k<=arr[i][j].length-1;k++){
                     System.out.println(" the Stored marks of schools "+i+" class "+j+" Student "+k);
 
                    System.out.println( arr[i][j][k]);
