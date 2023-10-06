@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/Patterm-programs/Patterm-programs.iml" filepath="$PROJECT_DIR$/Patterm-programs/Patterm-programs.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pattern-p2/Pattern-p2.iml" filepath="$PROJECT_DIR$/Pattern-p2/Pattern-p2.iml" />
       <module fileurl="file://$PROJECT_DIR$/TypeCasting/TypeCasting.iml" filepath="$PROJECT_DIR$/TypeCasting/TypeCasting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/strings/strings.iml" filepath="$PROJECT_DIR$/strings/strings.iml" />
     </modules>
   </component>
 </project>
