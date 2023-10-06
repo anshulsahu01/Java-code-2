@@ -12,7 +12,7 @@ public class gCompare {
 
         }
 
-
+//out put ;- reference is not equal
 
     }
 }
