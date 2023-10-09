@@ -18,7 +18,7 @@ public class aLocalGlobalveriable {
 class Demo{
 
     //instance variable
-    int a;
+    int a =1;
     float b;
     double c;
     String d;
