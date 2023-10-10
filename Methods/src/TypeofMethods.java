@@ -19,4 +19,6 @@ class Calculater{
         System.out.println("the sum of both the number is "+c);
     }
 
+    public static class Takeinput {
+    }
 }
