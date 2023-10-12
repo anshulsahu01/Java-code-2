@@ -8,9 +8,9 @@ public class Encapsulation {
     }
 }
 class pageNo{
-    private  int PageNO;
+    private  int PageNo;
 
-    int PageNo;
+
     void setPageNo(int x){
         if (x>=0){
             PageNo = x;
