@@ -1,9 +1,27 @@
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-      int[] arr={1,2,4,5,6,7,89};
-      int target=9;
+        Scanner obj =new Scanner(System.in);
+        System.out.println("enter the siz of arry");
+        int n=obj.nextInt();
+
+
+      int[] arr=new int[n];
+      for(int i=0;i<=n-1;i++){
+          System.out.print ("enter the value of arr "  +i+"  ");
+          arr[i]=obj.nextInt();
+      }
+      for(int i=0;i<=n-1;i++){
+            System.out.println (arr[i]);
+      }
+
+
+        System.out.println("enter the target");
+
+      int target=obj.nextInt();
        int sum= Linear( arr,  target);
        System.out.print(sum);
     }
