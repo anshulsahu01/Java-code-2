@@ -4,6 +4,7 @@ public class JaggArrays {
         int[][] a = new int[2][];
         a[0]=new int[2];
         a[1]=new int [1];
+
         
 
 
