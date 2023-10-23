@@ -17,6 +17,7 @@ class you{
     you(){
         aid=12455;
         pass=789788;
+        int name = anshul;
 
 
     }
