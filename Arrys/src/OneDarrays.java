@@ -1,3 +1,7 @@
+
+//take input from user
+
+
 import java.util.Scanner;
 
 public class OneDarrays {
