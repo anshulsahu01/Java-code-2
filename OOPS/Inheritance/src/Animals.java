@@ -49,6 +49,7 @@ public class Animals {
         m.breath();
         m.sleep();
         System.out.println("///////////");
+        System.out.println("///////////");
 
 
     }
