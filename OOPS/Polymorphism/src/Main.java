@@ -20,7 +20,7 @@ class CargoPlane extends plan{
     }
     void use(){
 
-            System.out.printf("for public");
+            System.out.println(" 2 for public");
 
     }
 }
@@ -39,6 +39,12 @@ public class Main {
         ref.fly();
         ref=c;
         ref.fly();
+
+
+
+// ye tb krte hai jab methodoveridden ka use krna ho
+       ( (CargoPlane)(ref)).use();
+
 
 
 
