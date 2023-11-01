@@ -14,13 +14,14 @@ public class Main {
 class you{
     int aid;
     int pass;
-    you(){
-        aid=12455;
-        pass=789788;
-        int name = anshul;
-
-
-    }
+//    you()
+//    {
+//        aid=12455;
+//        pass=789788;
+//        int name = anshul;
+//
+//
+//    }
 
 }
 class friend extends you{
