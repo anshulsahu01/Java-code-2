@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+      /*
+
         Scanner obj =new Scanner(System.in);
         System.out.println("enter the siz of arry");
         int n=obj.nextInt();
@@ -39,6 +41,25 @@ public class Main {
 
         }
         return -1;
+
+        */
+
+
+        int a;
+        Scanner n=new Scanner(System.in);
+        System.out.println("enter a number who's table you want");
+
+        a=n.nextInt();
+
+        System.out.println("enter a number till which term table you want");
+        int term=n.nextInt();
+        for(int i=1;i<=term;i++){
+            int sum =a*i;
+            System.out.println(a+ "*" +i +"="+sum);
+        }
+
+
+
     }
 
 }
