@@ -1,3 +1,5 @@
+//second code of interface 
+
 import java.util.Scanner;
 interface Mycalci{
 
