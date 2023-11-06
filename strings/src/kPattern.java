@@ -6,13 +6,25 @@ public class kPattern {
 
         System.out.println("enter the integer number");
         int a=obj.nextInt();
-        System.out.println(a);
+
         System.out.println("enter the floating  number");
         float b=obj.nextFloat();
-        System.out.println(b);
+
+        String c=obj.nextLine();
+
         System.out.println("enter a charater");
         String s=obj.nextLine();
+        System.out.println(a);
+        System.out.println(b);
         System.out.println(s);
+
+        /*
+
+     output
+  10
+10.0
+anshuk
+         */
     }
 
 }
