@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class kPattern {
+    public static void main(){
+        Scanner obj=new Scanner(System.in);
+
+        System.out.println("enter the integer number");
+        int a=obj.nextInt();
+        System.out.println(a);
+        System.out.println("enter the floating  number");
+        float b=obj.nextFloat();
+        System.out.println(b);
+        System.out.println("enter a charater");
+        String s=obj.nextLine();
+        System.out.println(s);
+    }
+
+}
