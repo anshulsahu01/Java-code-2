@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class kPattern {
-    public static void main(){
+    public static void main(String args[]){
         Scanner obj=new Scanner(System.in);
 
         System.out.println("enter the integer number");
