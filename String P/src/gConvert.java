@@ -10,7 +10,7 @@ public class gConvert {
         String result =" ";
 
         for(int i=0;i<=s.length()-1;i++){
-            if(s.charAt(i)>=97&&s.charAt(i)<122){
+            if(s.charAt(i)>=97&&s.charAt(i)<=122){
                 result=result+ (char)(s.charAt(i)-32);
             }else{
                 result=result+s.charAt(i);
