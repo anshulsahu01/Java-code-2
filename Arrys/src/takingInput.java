@@ -17,5 +17,12 @@ public class takingInput {
             System.out.println(a[i]);
 
         }
+
+
     }
+
+
+
+
+
 }
