@@ -365,6 +365,137 @@ public class zAll {
             System.out.println();
         }
     }
+    public static void S(){
+
+//        Scanner obj= new Scanner(System.in);
+//        System.out.println("enter a number");
+//        int n =obj.nextInt();
+        int n =11;
+
+        for (int i=1; i< n;i++){
+
+            for(int j=1;j<n;j++){
+                if(j==1||i==1&&j<n/2||j==n/2 &&i<n/2 || i==n/2&&j<n/2 ||i==j&&j>n/2) {
+
+
+                    System.out.print("*");
+
+                }else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+    public static void U(){
+
+//        Scanner obj= new Scanner(System.in);
+//        System.out.println("enter a number");
+//        int n =obj.nextInt();
+        int n =11;
+
+        for (int i=1; i< n;i++){
+
+            for(int j=1;j<n;j++){
+                if(j==1||j==n-1||i==n-1) {
+
+
+                    System.out.print("*");
+
+                }else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+    public static void V(){
+
+//        Scanner obj= new Scanner(System.in);
+//        System.out.println("enter a number");
+//        int n =obj.nextInt();
+        int n =11;
+
+        for (int i=1; i< n;i++){
+
+            for(int j=1;j<n;j++){
+                if(i==j/2) {
+
+
+                    System.out.print("*");
+
+                }else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+    public static void W(){
+
+//        Scanner obj= new Scanner(System.in);
+//        System.out.println("enter a number");
+//        int n =obj.nextInt();
+        int n =11;
+
+        for (int i=1; i< n;i++){
+
+            for(int j=1;j<n;j++){
+                if(j==1||i==1&&j<n/2||j==n/2 &&i<n/2 || i==n/2&&j<n/2 ||i==j&&j>n/2) {
+
+
+                    System.out.print("*");
+
+                }else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    } public static void X(){
+
+//        Scanner obj= new Scanner(System.in);
+//        System.out.println("enter a number");
+//        int n =obj.nextInt();
+        int n =11;
+
+        for (int i=1; i< n;i++){
+
+            for(int j=1;j<n;j++){
+                if(j==1||i==1&&j<n/2||j==n/2 &&i<n/2 || i==n/2&&j<n/2 ||i==j&&j>n/2) {
+
+
+                    System.out.print("*");
+
+                }else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
+    public static void Y(){
+
+//        Scanner obj= new Scanner(System.in);
+//        System.out.println("enter a number");
+//        int n =obj.nextInt();
+        int n =11;
+
+        for (int i=1; i< n;i++){
+
+            for(int j=1;j<n;j++){
+                if(j==1||i==1&&j<n/2||j==n/2 &&i<n/2 || i==n/2&&j<n/2 ||i==j&&j>n/2) {
+
+
+                    System.out.print("*");
+
+                }else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+    }
     public static void main(String[] args) {
 //        A();
 //        B();
@@ -382,8 +513,8 @@ public class zAll {
 //          M();
 //          O(); *
 //          P();
-//          Q();
-          R();
+//          Q();*
+//          R();
 //          S();
 //          U();
 //          V();
