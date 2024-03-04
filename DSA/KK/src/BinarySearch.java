@@ -13,6 +13,7 @@ public class BinarySearch {
                 start=mid+1;
             }
             else {
+                
                 arr[end]= target;
                 return mid;
             }
