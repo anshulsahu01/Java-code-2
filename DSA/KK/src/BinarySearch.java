@@ -13,6 +13,7 @@ public class BinarySearch {
                 start=mid+1;
             }
             else {
+                
                 arr[end]= target;
                 return mid;
             }
@@ -25,4 +26,5 @@ public class BinarySearch {
         int target=1;
         System.out.println(Binary(arr,target));
     }
+    
 }

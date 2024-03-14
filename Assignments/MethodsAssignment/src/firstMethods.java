@@ -9,6 +9,7 @@ public class firstMethods {
 
 
 
+        
         maxnumber();
         mininumber();
 
