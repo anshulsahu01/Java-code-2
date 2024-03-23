@@ -10,5 +10,6 @@ public class Treeset {
         TS.add(15);
         TS.add(100);
         System.out.println(TS);
+        
     }
 }
