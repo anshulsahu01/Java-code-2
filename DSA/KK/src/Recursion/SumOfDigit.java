@@ -2,7 +2,7 @@ package Recursion;
 
 public class SumOfDigit {
     public static void main(String[] args) {
-        int ans=digtiadd(505);
+        int ans=digtiadd(5152);
         System.out.println(ans);
 
     }

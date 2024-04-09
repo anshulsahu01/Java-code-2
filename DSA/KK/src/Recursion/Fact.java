@@ -2,8 +2,8 @@ package Recursion;
 
 public class Fact {
     public static void main(String[] args) {
-//        int ans=fact(15);
-        int ans =sum(10);
+        int ans=fact(5);
+//        int ans =sum(5);
         System.out.println(ans);
 
     }
