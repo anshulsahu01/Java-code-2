@@ -2,6 +2,7 @@ public class Char {
     static int Binary(char[] arr, char target){
         int start =0;
         int end =arr.length-1;
+        
 
         while (start<=arr[end]){
             int mid = start+(end-start)/2;
