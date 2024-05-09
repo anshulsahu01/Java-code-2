@@ -3,6 +3,7 @@ package Recursion;
 //print the numbers form 1 to 5
 
 public class B {
+    
 
     static void findnum(int n){
         System.out.println(n);
