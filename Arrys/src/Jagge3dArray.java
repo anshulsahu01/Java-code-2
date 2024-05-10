@@ -9,6 +9,7 @@ public class Jagge3dArray {
         int student;
 //        int[][][] arr =new int[school][cls][student];
         System.out.println("class in school 1");
+        
 
 
 
