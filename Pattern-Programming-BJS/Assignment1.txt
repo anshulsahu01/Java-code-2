@@ -1,0 +1,31 @@
+1) Write the code to print below pattern
+   B
+   J
+   S
+   H
+   U
+   B
+
+2) Type your name vertically 
+   T
+   E
+   J
+   A
+   S 
+   W
+   I 
+   N 
+   I
+
+3)Write the code to print below pattern
+  a
+  b
+  c
+  d
+
+4)Write the code to print below pattern
+  1
+  2
+  3
+  4
+  5

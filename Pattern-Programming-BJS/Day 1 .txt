@@ -1,0 +1,83 @@
+Day 1 
+-----
+
+Predict the output
+======================
+
+1.class  Example
+{
+	public static void main(String[] args) 
+	{
+		int i=1;
+		for(System.out.println("BJS");i<1;System.out.println("HUB"))
+		{
+			System.out.println("class");
+		}
+
+	}
+
+}
+
+
+
+2.class  Example
+{
+	public static void main(String[] args) 
+	{
+		int i=1;
+		for(System.out.println("BJS");false;System.out.println("HUB"))
+		{
+			System.out.println("class");
+		}
+
+	}
+
+
+}
+
+3.class  Example
+{
+	public static void main(String[] args) 
+	{
+		int i=1;
+		for(System.out.println("BJS");true;System.out.println("HUB"))
+		{
+			System.out.println("class");
+		}
+
+	}
+
+
+}
+
+
+4.class  Example
+{
+	public static void main(String[] args) 
+	{
+		int i=1;
+		for(System.out.println("BJS");0;System.out.println("HUB"))
+		{
+			System.out.println("class");
+		}
+
+	}
+
+
+}
+
+5.class  Example
+{
+	public static void main(String[] args) 
+	{
+		int i=1;
+		for(System.out.println("BJS");1;System.out.println("HUB"))
+		{
+			System.out.println("class");
+		}
+
+	}
+
+
+}
+

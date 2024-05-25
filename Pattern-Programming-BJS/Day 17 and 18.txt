@@ -1,0 +1,192 @@
+BJSHUB
+bjshub
+
+
+import java.util.*;
+class  SampleProgramming
+{
+	public static void main(String[] args) 
+	{
+		char res[]=toLowerCase();
+		System.out.println(res);
+	}
+
+   public static char[] toLowerCase()
+	{
+	   String s="BJSHUBBJSHUB";
+	   s=s.concat("\0");
+	   char ch[]=s.toCharArray();
+	   int i=0;
+	   while(ch[i]!='\0')
+		{
+			ch[i]=(char)(ch[i]+32);
+			i++;
+		}
+		return ch;	   
+
+		
+	}
+}
+
+
+
+
+
+2.import java.util.*;
+class  SampleProgramming
+{
+	public static void main(String[] args) 
+	{
+		char res[]=toUpperCase();
+		System.out.println(res);
+	}
+
+   public static char[] toUpperCase()
+	{
+	   String s="bjshub";
+	   s=s.concat("\0");
+	   char ch[]=s.toCharArray();
+	   int i=0;
+	   while(ch[i]!='\0')
+		{
+			ch[i]=(char)(ch[i]-32);
+			i++;
+		}
+		return ch;	   
+
+		
+	}
+}
+
+
+3.import java.util.*;
+class  SampleProgramming
+{
+	public static void main(String[] args) 
+	{
+		char res[]=toLowerCase();
+		System.out.println(res);
+	}
+
+   public static char[] toLowerCase()
+	{
+	   String s="I LOVE PROGRAMMING";
+	   s=s.concat("\0");
+	   char ch[]=s.toCharArray();
+	   int i=0;
+	   while(ch[i]!='\0')
+		{
+		   if(ch[i]==' ')
+			{
+				i++;
+			}
+			else
+			{
+			ch[i]=(char)(ch[i]+32);
+			i++;
+			}
+		}
+		return ch;	   
+
+		
+	}
+}
+
+
+
+4.import java.util.*;
+class  SampleProgramming
+{
+	public static void main(String[] args) 
+	{
+		char res[]=capFirstChar();
+		System.out.println(res);
+	}
+
+   public static char[] capFirstChar()
+	{
+	   String s="rama is present in ramayan";
+	   s=s.concat("\0");
+	   char ch[]=s.toCharArray();
+	   ch[0]=(char)(ch[0]-32);
+	   int i=0;
+	   while(ch[i]!='\0')
+		{
+		   if(ch[i]==' ')
+			{
+				i++;
+				ch[i]=(char)(ch[i]-32);
+
+			}
+			++i;
+		
+		}
+		return ch;	   
+
+		
+	}
+}
+
+
+
+5.import java.util.*;
+class  SampleProgramming
+{
+	public static void main(String[] args) 
+	{
+		char res[]=substring(4);
+		System.out.println(res);
+	}
+
+   public static char[] substring(int start)
+	{
+	   String s="rajaRamMoHANRoy";
+	   s=s.concat("\0");
+	   char ch[]=s.toCharArray();
+	  char x[]=new char[ch.length];//
+	   
+	   int i=start;
+	   int j=0;
+	   while(ch[i]!='\0')
+		{
+		   x[j]=ch[i];
+		   i++;
+		   j++;
+		}
+		return x;	   
+
+		
+	}
+}
+
+
+
+6.
+import java.util.*;
+class  SampleProgramming
+{
+	public static void main(String[] args) 
+	{
+		char res[]=replace('R','M');
+		System.out.println(res);
+	}
+
+   public static char[] replace(char old,char neww)
+	{
+	   String s="rajaRamMoHANRoy";
+	   s=s.concat("\0");
+	   char ch[]=s.toCharArray();
+	   int i=0;
+	   
+	   while(ch[i]!='\0')
+		{
+		   if(ch[i]==old)
+			{
+				ch[i]=neww;
+			}
+			i++;
+		}
+		return ch;	   
+	}
+}
+

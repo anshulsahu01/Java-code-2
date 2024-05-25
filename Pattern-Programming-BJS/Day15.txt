@@ -1,0 +1,206 @@
+1. WAP to find frequency of a given number in an array
+============================================================
+
+import java.util.*;
+class  SampleProgramming
+{
+	public static void main(String[] args) 
+	{
+		
+		int a[]=new int[]{10,20,100,88,99,9,99,99};
+		int x=99;
+		int count=0;
+		for (int i=0;i<a.length ;i++ )
+		{
+			if(a[i]==x)
+			{
+				count++;
+			}
+		}
+		System.out.println(count);
+
+	}
+}
+
+
+2.
+
+import java.util.*;
+class  SampleProgramming
+{
+	public static void main(String[] args) 
+	{
+		
+	int a[]=new int[]{100,98,99,100,97,98,99,100,100,99};
+        for (int j=0;j<a.length ;j++ )
+        {
+		int x=a[j];
+		if(x==-1)continue;
+		int count=0;
+		for (int i=0;i<a.length ;i++ )
+		{
+			if(a[i]==x)
+			{
+				count++;
+				a[i]=-1;
+			}
+		}
+		//BASED ON QUESTION....
+		if(count>=2)
+		System.out.println("Frequency of "+x+" is "+count);
+         }
+	}
+}
+
+
+
+....................
+import java.util.*;
+class  SampleProgramming
+{
+	public static void main(String[] args) 
+	{
+		int res=length();
+		System.out.println(res);
+		
+	}
+
+   public static int 	length()
+	{
+	   String s="RajaRamMohanRoy";
+	   s=s.concat("\0");
+	   char ch[]=s.toCharArray();
+	   int i=0;
+	   while(ch[i]!='\0')
+		{
+			i++;
+		}
+	   return i;
+
+		
+	}
+}
+---------------------------------------------
+import java.util.*;
+class  SampleProgramming
+{
+	public static void main(String[] args) 
+	{
+		int res=indexOf('M');
+		System.out.println(res);
+		
+	}
+
+   public static int indexOf(char c)
+	{
+	   String s="RajaRamMohanRoy";
+	   s=s.concat("\0");
+	   char ch[]=s.toCharArray();
+	   int i=0;
+	   while(ch[i]!='\0' && ch[i]!=c)
+		{
+			i++;
+		}
+	    if(ch[i]==c)
+		{
+			return i;
+		}
+		else
+		{
+			return -1;
+		}
+
+		
+	}
+}
+-------------------------------------------------
+import java.util.*;
+class  SampleProgramming
+{
+	public static void main(String[] args) 
+	{
+		int res=indexOf('R',6);
+		System.out.println(res);
+		
+	}
+
+   public static int indexOf(char c,int start)
+	{
+	   String s="RajaRamMohanRoy";
+	   s=s.concat("\0");
+	   char ch[]=s.toCharArray();
+	   int i=start;
+	   while(ch[i]!='\0' && ch[i]!=c)
+		{
+			i++;
+		}
+	    if(ch[i]==c)
+		{
+			return i;
+		}
+		else
+		{
+			return -1;
+		}
+
+		
+	}
+}
+
+-------------------------------------------------------------
+import java.util.*;
+class  SampleProgramming
+{
+	public static void main(String[] args) 
+	{
+		int res=lastIndexOf('R');
+		System.out.println(res);
+		
+	}
+
+   public static int lastIndexOf(char c)
+	{
+	   String s="RajaRamMohanRoy";
+	   s=s.concat("\0");
+	   char ch[]=s.toCharArray();
+	   int i=ch.length-1;
+	   while(ch[i]!=-1 && ch[i]!=c)
+		{
+			i--;
+		}
+	    if(ch[i]==c)
+		{
+			return i;
+		}
+		else
+		{
+			return -1;
+		}
+
+		
+	}
+}
+--------------------------------------------------------------
+A-65
+a-97
+Z-90
+z-122
+
+
+
+Uppercase -Lowercase=-32
+A-a=-32
+65-97=-32
+
+lowercase=Uppercase+32
+Uppercase=lower-32
+
+
+
+
+
+
+
+
+
+

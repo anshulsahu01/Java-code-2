@@ -1,0 +1,148 @@
+1) WAP to find HCF(Highest common factor) of a given  numbs.
+
+10-1,2,5,10
+20-1,2,4,5,10,20
+
+HCF-10
+
+
+class InterviewQuestions 
+{
+	public static void main(String[] args) 
+	{
+		int n1=10;//20
+		int n2=20;//10
+		int hcf=0;
+
+		for (int i=n2;i>=1 ;i-- )
+		{
+			if(n2%i==0  && n1%i==0)
+			{
+				hcf=i;
+				
+				break;
+			}
+		}
+		System.out.println(hcf);
+		
+
+	}
+}
+OUTPUT:
+ 10
+
+================================================================
+2)
+Product of 2 numbers =lcm*hcf;
+lcm =product of 2 numbers/hcf;
+lcm =(10*20)/10;
+    =20;
+
+
+==========================================================================
+
+3) WAP to find factorial of a given number.
+
+5
+
+1*2*3*4*5
+2*3
+6*4
+24*5
+120
+
+1<=n
+fact=0*1*2*3...=0>>>>>>>> (wrong initialization)
+fact =1;
+
+fact=fact*i;//1*1=1//1*2=2//2*3.......5=120
+
+class InterviewQuestions 
+{
+	public static void main(String[] args) 
+	{
+		int n=5;
+		int fact=1;
+
+		for (int i=1;i<=n ;i++ )
+		{
+			fact=fact*i;//fact*=i
+		}
+		System.out.println(fact);
+		
+
+	}
+}
+
+
+OUTPUT :120
+
+
+
+5 data
+========================================================================
+
+//Initialization
+//Storing
+//Displaying
+
+
+//int a[]=new int[5];
+for()
+//a[i]=s.nextInt();
+for()
+//a[i]
+
+1 2 3 4 5
+
+import java.util.*;
+class InterviewQuestions 
+{
+	// 1 2 3 4 5
+	public static void main(String[] args) 
+	{
+		int a[]=new int[5];
+		int sum=0;
+		Scanner s = new Scanner(System.in);
+		for (int i=0;i<a.length;i++ )
+		{
+			a[i]=s.nextInt();
+		}
+		for (int i=0;i<a.length;i++ )
+		{
+			sum=sum+a[i];//sum+=a[i];
+		}
+
+		
+			System.out.print(sum);
+		
+
+		
+
+	}
+}
+========================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+class  Example
+{
+	public static void main(String[] args) 
+	{
+	  int i=0;
+	  for (System.out.println("BJS");i<0 ;System.out.println("Programming") )
+	  {
+			System.out.println("HUB");
+	  }
+	}
+}
+
+
+
+
+
+class  Example
+{
+	public static void main(String[] args) 
+	{
+		for (int i=0;i<5 ;i++ )
+		{
+			System.out.print("*");
+		}
+		System.out.println();
+
+		for (int i=0;i<5 ;i++ )
+		{
+			System.out.print("%");
+		}
+		System.out.println();
+
+		for (int i=0;i<5 ;i++ )
+		{
+			System.out.print("$");
+		}
+	  
+	}
+}
+
+
+
+class  Example
+{
+	public static void main(String[] args) 
+	{
+		for (int i=0;i<5 ;i++ )
+		{
+			for (int j=0;j<5 ;j++ )
+			{
+				if(j==4)   //i==0//j==0//i==4
+				System.out.print("*");
+				else
+				System.out.print(" ");
+			}
+			System.out.println();
+			
+		}
+	  
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

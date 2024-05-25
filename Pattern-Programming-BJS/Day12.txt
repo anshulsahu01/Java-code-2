@@ -1,0 +1,236 @@
+WAP to add the even index elements.
+1 2 3 4 5
+0 1 2 3 4--> index
+
+
+import java.util.*;
+class InterviewQuestions 
+{
+	// 1 2 3 4 5
+	public static void main(String[] args) 
+	{
+		int a[]=new int[5];
+		int sum=0;
+		Scanner s = new Scanner(System.in);
+		for (int i=0;i<a.length;i++ )
+		{
+			a[i]=s.nextInt();
+		}
+		for (int i=0;i<a.length;i++ )
+		{
+			if(i%2==0)
+			{
+			sum=sum+a[i];//sum+=a[i];
+			}
+		}
+
+			System.out.print(sum);
+		
+
+		
+
+	}
+}
+
+WAP to add the even index elements.
+import java.util.*;
+class InterviewQuestions 
+{
+	// 1 2 3 4 5
+	public static void main(String[] args) 
+	{
+		int a[]=new int[5];
+		int sum=0;
+		Scanner s = new Scanner(System.in);
+		for (int i=0;i<a.length;i++ )
+		{
+			a[i]=s.nextInt();
+		}
+		for (int i=0;i<a.length;i++ )
+		{
+			if(i%2!=0)
+			{
+			sum=sum+a[i];//sum+=a[i];
+			}
+		}
+
+			System.out.print(sum);
+		
+
+	}
+}
+
+
+WAP to add all the integer elements present at both even and odd index.
+import java.util.*;
+class InterviewQuestions 
+{
+	// 1 2 3 4 5
+	public static void main(String[] args) 
+	{
+		int a[]=new int[5];
+		int oddsum=0;
+		int evensum=0;
+		Scanner s = new Scanner(System.in);
+		for (int i=0;i<a.length;i++ )
+		{
+			a[i]=s.nextInt();
+		}
+		for (int i=0;i<a.length;i++ )
+		{
+			if(i%2!=0)
+			{
+			oddsum=oddsum+a[i];//sum+=a[i];//odd sum
+			}
+			else
+			{
+			evensum=evensum+a[i];//sum+=a[i];//even sum
+			}
+		}
+
+			System.out.println("oddsum "+oddsum);
+			System.out.println("evensum "+evensum);
+	}
+}
+
+
+
+WAP to perform addition of 2 matrices.
+==========================================
+A
+1 2 3
+1 2 3
+1 2 3
++
+B
+1 2 3
+1 2 3
+1 2 3
+=
+c
+2 4 6
+2 4 6
+2 4 6
+
+
+import java.util.*;
+class InterviewQuestions 
+{
+	// 1 2 3 4 5
+	public static void main(String[] args) 
+	{
+		int a[][]=new int[][]{{1,2,3},{1,2,3},{1,2,3}};
+		int b[][]=new int[][]{{1,2,3},{1,2,3},{1,2,3}};
+		int c[][]=new int[a.length][a.length];
+		
+		for (int i=0;i<a.length ; i++)
+		{
+			for (int j=0;j<a.length ;j++ )
+			{
+			c[i][j]	=a[i][j]+b[i][j];
+			}
+		}
+		for (int i=0;i<a.length ; i++)
+		{
+			for (int j=0;j<a.length ;j++ )
+			{
+			System.out.print(c[i][j]+" ");
+			}
+			System.out.println();
+		}
+
+		
+	}
+}
+
+
+
+WAP to perform subraction of 2 matrices.
+import java.util.*;
+class InterviewQuestions 
+{
+	// 1 2 3 4 5
+	public static void main(String[] args) 
+	{
+		int a[][]=new int[][]{{1,2,3},{1,2,3},{1,2,3}};
+		int b[][]=new int[][]{{1,2,3},{1,2,3},{1,2,3}};
+		int c[][]=new int[a.length][a.length];
+		
+		for (int i=0;i<a.length ; i++)
+		{
+			for (int j=0;j<a.length ;j++ )
+			{
+			c[i][j]	=a[i][j]-b[i][j];
+			}
+		}
+		for (int i=0;i<a.length ; i++)
+		{
+			for (int j=0;j<a.length ;j++ )
+			{
+			System.out.print(c[i][j]+" ");
+			}
+			System.out.println();
+		}
+
+		
+	}
+}
+
+
+WAP to perform matrix multiplication.
+import java.util.*;
+class InterviewQuestions 
+{
+	// 1 2 3 4 5
+	public static void main(String[] args) 
+	{
+		int a[][]=new int[][]{{1,2,3},{1,2,3},{1,2,3}};
+		int b[][]=new int[][]{{1,2,3},{1,2,3},{1,2,3}};
+		int c[][]=new int[a.length][a.length];
+		
+		for (int i=0;i<a.length ; i++)
+		{
+			for (int j=0;j<a[i].length ;j++ )
+			{
+				for (int k=0;k<a[i].length ;k++ )
+				{
+					c[i][j]=c[i][j]+(a[i][k]*b[k][j]);
+				}
+			
+			}
+		}
+		for (int i=0;i<a.length ; i++)
+		{
+			for (int j=0;j<a[i].length ;j++ )
+			{
+			System.out.print(c[i][j]+" ");
+			}
+			System.out.println();
+		}
+
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
